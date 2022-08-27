@@ -46,6 +46,7 @@ module Language.Wasm.Builder (
     appendExpr, after,
     Producer, OutType, produce, Consumer, (.=),
     FuncDef(..),
+    GenModState(..),
 ) where
 
 import Prelude hiding (and, or)

@@ -44,7 +44,8 @@ module Language.Wasm.Builder (
     {-if', loop, block, when, for, while,-}
     trap, unreachable,
     appendExpr, after,
-    Producer, OutType, produce, Consumer, (.=)
+    Producer, OutType, produce, Consumer, (.=),
+    FuncDef(..),
 ) where
 
 import Prelude hiding (and, or)
